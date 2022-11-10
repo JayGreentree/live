@@ -24,7 +24,7 @@ const DemoButton = () => {
     el?.classList.remove('show-overlay');
   };
   useClickOutside(ctaRef, clickedOutside);
-  /*return (
+  return (
     <Dialog.Root>
       <Dialog.Overlay className={cn(styles['overlay'])} />
       <Dialog.Trigger asChild>
@@ -45,7 +45,7 @@ const DemoButton = () => {
         <DemoModal />
       </Dialog.Content>
     </Dialog.Root>
-  );*/
+  );
 };
 
 export default DemoButton;
