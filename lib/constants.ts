@@ -42,8 +42,9 @@ export const SAMPLE_TICKET_NUMBER = 1234;
 export const NAVIGATION = [
   {
     name: 'Live',
-    route: '/stage/a'
-  },
+    route: '/stage/live'
+  }
+/*
   {
     name: 'Vercel Stage',
     route: '/stage/c'
@@ -68,6 +69,7 @@ export const NAVIGATION = [
     name: 'Jobs',
     route: '/jobs'
   }
+  */
 ];
 
 export type TicketGenerationState = 'default' | 'loading';
