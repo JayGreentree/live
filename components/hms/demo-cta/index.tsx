@@ -24,12 +24,12 @@ const DemoButton = () => {
     el?.classList.remove('show-overlay');
   };
   useClickOutside(ctaRef, clickedOutside);
-  return (
+  /*return (
     <Dialog.Root>
       <Dialog.Overlay className={cn(styles['overlay'])} />
       <Dialog.Trigger asChild>
         <button ref={ctaRef} id="cta-btn" className={cn(styles['cta-btn'])}>
-           
+          Try Demo
         </button>
       </Dialog.Trigger>
       <div id="cta-tooltip" className={cn(styles['tooltip'])}>
@@ -45,7 +45,7 @@ const DemoButton = () => {
         <DemoModal />
       </Dialog.Content>
     </Dialog.Root>
-  );
+  );*/
 };
 
 export default DemoButton;
