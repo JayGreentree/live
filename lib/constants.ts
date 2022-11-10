@@ -16,10 +16,10 @@
 
 export const SITE_URL = 'https://demo.vercel.events';
 export const SITE_ORIGIN = process.env.NEXT_PUBLIC_SITE_ORIGIN || new URL(SITE_URL).origin;
-export const TWITTER_USER_NAME = 'vercel';
-export const BRAND_NAME = 'ACME';
+export const TWITTER_USER_NAME = 'jaygjr2003';
+export const BRAND_NAME = 'Greentree Consulting';
 export const SITE_NAME_MULTILINE = ['ACME', 'Conf'];
-export const SITE_NAME = 'ACME Conf';
+export const SITE_NAME = 'Greentree Consulting Live';
 export const META_DESCRIPTION =
   'This is an open source demo that Next.js developers can clone, deploy, and fully customize for events. Created through collaboration of marketers, designers, and developers at Vercel.';
 export const SITE_DESCRIPTION =
@@ -44,6 +44,7 @@ export const NAVIGATION = [
     name: 'Live Stage',
     route: '/stage/a'
   },
+/*
   {
     name: 'Vercel Stage',
     route: '/stage/c'
@@ -68,6 +69,7 @@ export const NAVIGATION = [
     name: 'Jobs',
     route: '/jobs'
   }
+  */
 ];
 
 export type TicketGenerationState = 'default' | 'loading';
