@@ -4,7 +4,7 @@ import Header from './Header';
 import List from './Conference';
 import toast, { Toaster } from 'react-hot-toast';
 import { useHMSNotifications } from '@100mslive/react-sdk';
-import DemoModal from './DemoModal';
+//import DemoModal from './DemoModal';
 
 /**
  * Live Video/Audio component
