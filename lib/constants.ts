@@ -44,7 +44,6 @@ export const NAVIGATION = [
     name: 'Live',
     route: '/stage/a'
   },
-/*
   {
     name: 'Vercel Stage',
     route: '/stage/c'
@@ -69,7 +68,6 @@ export const NAVIGATION = [
     name: 'Jobs',
     route: '/jobs'
   }
-  */
 ];
 
 export type TicketGenerationState = 'default' | 'loading';
